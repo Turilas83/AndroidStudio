@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Prosenttilaskuri</string>
+    <string name="my_first_app">Prosenttilaskuri</string>
+    <string name="click_me">Aloita</string>
+    <string name="prosentti">Syötä vähennettävä %:</string>
+    <string name="luku">Syötä luku:</string>
+    <string name="laske">Laske</string>
+    <string name="tulos">Tulos:</string>
+</resources>
