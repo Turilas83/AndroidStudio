@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.mikko.firstapp.SecondActivity">
+
+    <TextView
+        android:id="@+id/tvLuku"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="22dp"
+        android:layout_marginTop="23dp"
+        android:text="@string/luku"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/tvProsentit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/etProsentit"
+        android:layout_alignBottom="@+id/etProsentit"
+        android:layout_alignStart="@+id/tvLuku"
+        android:textColor="@color/colorPrimaryDark"
+        android:text="@string/prosentti" />
+
+    <EditText
+        android:id="@+id/etLuku"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="8"
+        android:inputType="numberDecimal"
+        android:textSize="14sp"
+        android:textColor="@color/colorPrimaryDark"
+        android:layout_alignBaseline="@+id/tvLuku"
+        android:layout_alignBottom="@+id/tvLuku"
+        android:layout_toEndOf="@+id/tvLuku"
+        android:layout_marginStart="13dp" />
+
+    <EditText
+        android:id="@+id/etProsentit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="8"
+        android:inputType="numberDecimal"
+        android:textSize="14sp"
+        android:textColor="@color/colorPrimaryDark"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="19dp"
+        android:layout_below="@+id/etLuku"
+        android:layout_toEndOf="@+id/tvProsentit" />
+
+    <Button
+        android:id="@+id/btLaske"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/etProsentit"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="39dp"
+        android:background="@color/colorPrimary"
+        android:onClick="laske"
+        android:text="@string/laske"
+        android:textColor="@android:color/white"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tvTulos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/tulos"
+        android:textSize="18sp"
+        android:textColor="@color/colorPrimaryDark"
+        android:visibility="visible"
+        android:layout_marginTop="34dp"
+        android:layout_below="@+id/btLaske"
+        android:layout_alignStart="@+id/tvProsentit" />
+</RelativeLayout>
