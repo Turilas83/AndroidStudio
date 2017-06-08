@@ -1,0 +1,11 @@
+<keymap version="1" name="Default copy" parent="$default">
+  <action id="EditorDecreaseFontSize">
+    <keyboard-shortcut first-keystroke="shift subtract" />
+  </action>
+  <action id="EditorIncreaseFontSize">
+    <keyboard-shortcut first-keystroke="shift add" />
+  </action>
+  <action id="EditorResetFontSize">
+    <keyboard-shortcut first-keystroke="shift multiply" />
+  </action>
+</keymap>
