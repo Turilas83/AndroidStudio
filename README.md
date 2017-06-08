@@ -1,2 +1,2 @@
-# hello-world
-repository test
+# Prosenttilaskuri
+Vähentää luvusta syötetyn prosentin
